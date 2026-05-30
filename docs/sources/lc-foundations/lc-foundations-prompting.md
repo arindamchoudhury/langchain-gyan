@@ -125,13 +125,13 @@ This is prompt engineering — the output is still a string, just formatted pred
 `response_format` accepts a Pydantic `BaseModel` subclass. The agent forces the model to return data matching the schema and validates it automatically. The result is in `response["structured_response"]`:
 
 ```python
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 class CapitalInfo(BaseModel):
-    name: str
-    location: str
-    vibe: str
-    economy: str
+    name: str = Field(description="The name of the capital city")
+    location: str = Field(description="Where on the planet or moon it is located")
+    vibe: str = Field(description="2-3 words describing the city's atmosphere and character")
+    economy: str = Field(description="The main industries that drive the city's economy")
 
 agent = create_agent(
     model=model,

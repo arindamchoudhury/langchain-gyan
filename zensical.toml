@@ -10,6 +10,10 @@ nav = [
         { "Contents" = "book/index.md" },
         { "1. Foundational Models" = "book/ch01-foundational-models.md" },
         { "2. Prompting" = "book/ch02-prompting.md" },
+        { "3. Tools" = "book/ch03-tools.md" },
+        { "4. Web Search" = "book/ch04-web-search.md" },
+        { "5. Memory" = "book/ch05-memory.md" },
+        { "6. Multimodal Messages" = "book/ch06-multimodal.md" },
     ]},
     { "Research Notes" = [
         { "All Notes" = "sources/index.md" },
@@ -17,8 +21,12 @@ nav = [
         { "1. LangChain Foundations" = [
             { "Course Overview" = "sources/lc-foundations/index.md" },
             { "0.1 Getting Set Up" = "sources/lc-foundations/lc-foundations-getting-set-up.md" },
-            { "1.1 Foundational Models" = "sources/lc-foundations/lc-foundations-foundational-models.md" },
-            { "1.1 Prompting" = "sources/lc-foundations/lc-foundations-prompting.md" },
+            { "1.1a Foundational Models" = "sources/lc-foundations/lc-foundations-foundational-models.md" },
+            { "1.1b Prompting" = "sources/lc-foundations/lc-foundations-prompting.md" },
+            { "1.2a Tools" = "sources/lc-foundations/lc-foundations-tools.md" },
+            { "1.2b Web Search" = "sources/lc-foundations/lc-foundations-web-search.md" },
+            { "1.3 Memory" = "sources/lc-foundations/lc-foundations-memory.md" },
+            { "1.4 Multimodal" = "sources/lc-foundations/lc-foundations-multimodal.md" },
         ]},
     ]},
     { "Reference" = [
