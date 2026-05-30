@@ -1,0 +1,28 @@
+[project]
+site_name = "LangChain Learning"
+site_description = "Learning path, book, and research notes for LangChain & AI agents."
+site_author = "arindam@live.com"
+
+nav = [
+    { "Home" = "index.md" },
+    { "Learning Path" = "learning-path.md" },
+    { "Book" = [
+        { "Contents" = "book/index.md" },
+        { "1. Foundational Models" = "book/ch01-foundational-models.md" },
+        { "2. Prompting" = "book/ch02-prompting.md" },
+    ]},
+    { "Research Notes" = [
+        { "All Notes" = "sources/index.md" },
+        { "Topics" = "topics/index.md" },
+        { "1. LangChain Foundations" = [
+            { "Course Overview" = "sources/lc-foundations/index.md" },
+            { "0.1 Getting Set Up" = "sources/lc-foundations/lc-foundations-getting-set-up.md" },
+            { "1.1 Foundational Models" = "sources/lc-foundations/lc-foundations-foundational-models.md" },
+            { "1.1 Prompting" = "sources/lc-foundations/lc-foundations-prompting.md" },
+        ]},
+    ]},
+    { "Reference" = [
+        { "Glossary" = "reference/glossary.md" },
+        { "Resources" = "reference/resources.md" },
+    ]},
+]
