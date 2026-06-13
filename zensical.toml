@@ -2,6 +2,8 @@
 site_name = "LangChain Learning"
 site_description = "Learning path, book, and research notes for LangChain & AI agents."
 site_author = "arindam@live.com"
+extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["javascripts/sidebar-toggle.js"]
 
 nav = [
     { "Home" = "index.md" },
